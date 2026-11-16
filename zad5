@@ -1,7 +1,4 @@
 <?php
-// PHP: Tablice - zadania 1-5
-// Uruchom na serwerze z PHP (np. XAMPP): http://localhost/zadania.php
-
 function fmt($x){ return is_float($x) ? number_format($x, 0, '', '') : $x; }
 function pokaz($t){ echo implode(" ", array_map('fmt', $t)); }
 function naglowek($t){ echo "<h3>$t</h3>"; }
